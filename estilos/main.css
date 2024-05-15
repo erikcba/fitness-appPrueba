@@ -450,6 +450,10 @@ accent{
         font-size: 1rem;
     }
 
+    .menu-opciones{
+        gap: .6rem;
+    }
+
     .cabecera-contenido{
         width: 100%;
         padding: 0 20px;
@@ -470,6 +474,17 @@ accent{
     }
 
     .contenido-izquierda {
+        width: 100%;
+    }
+
+    .tipos-entrenamiento{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .tarjeta{
         width: 100%;
     }
 
