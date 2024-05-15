@@ -424,3 +424,78 @@ accent{
     align-items: center;
     gap: 25px;
 }
+
+@media screen and (max-width: 769px){
+    .cabecera-contenido {
+        width: 80%;
+    }
+
+    .contenedor-tarjetas {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .contenido-derecha img{
+        width: 70%;
+    }
+
+    #tarjetaOpt2 .contenido-derecha  {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px){
+
+    .menu {
+        font-size: 1rem;
+    }
+
+    .cabecera-contenido{
+        width: 100%;
+        padding: 0 20px;
+        flex-direction: column-reverse;
+    }
+
+    .cabecera-contenido .contenido-izquierda {
+        width: 100%;
+    }
+
+    .contenido-derecha {
+        display: none;
+    }
+
+    .cabecera-contenido .contenido-derecha{
+        display: flex;
+        width: 100%;
+    }
+
+    .contenido-izquierda {
+        width: 100%;
+    }
+
+    #utilidades.contenedor-seccion{
+        margin-bottom: 100px;
+    }
+
+    #utilidades .contenedor-horizontal {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 80%;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+        padding:50px 0;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
