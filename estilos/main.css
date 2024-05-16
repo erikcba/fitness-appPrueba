@@ -468,6 +468,10 @@ accent{
         display: none;
     }
 
+    #tarjetaOpt2 .contenido-derecha {
+        display: flex;
+    }
+
     .cabecera-contenido .contenido-derecha{
         display: flex;
         width: 100%;
